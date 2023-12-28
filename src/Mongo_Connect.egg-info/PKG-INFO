@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: Mongo-Connect
+Version: 0.0.4
+Summary: A python package for connecting with database.
+Home-page: https://github.com/sunnysavita10/mongodbconnectorpkg
+Author: sunnysavita10
+Author-email: sunny.savita@ineuron.ai
+License: MIT
+Project-URL: Bug Tracker, https://github.com/sunnysavita10/mongodbconnectorpkg/issues
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: pymongo
+Requires-Dist: pymongo[srv]
+Requires-Dist: dnspython
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: ensure
+Requires-Dist: pytest==7.1.3
+Requires-Dist: tox==3.25.1
+Requires-Dist: black==22.8.0
+Requires-Dist: flake8==5.0.4
+Requires-Dist: mypy==0.971
+Provides-Extra: testing
+Requires-Dist: pytest>=7.1.3; extra == "testing"
+Requires-Dist: mypy>=0.971; extra == "testing"
+Requires-Dist: flake8>=5.0.4; extra == "testing"
+Requires-Dist: tox>=3.25.1; extra == "testing"
+Requires-Dist: black>=22.8.0; extra == "testing"
