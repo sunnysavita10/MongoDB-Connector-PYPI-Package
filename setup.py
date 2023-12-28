@@ -1,6 +1,10 @@
 from setuptools import setup, find_packages
 from typing import List
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> 4dce55b5c0eb4e567f13dd5b9ac65c707a83ed99
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
@@ -24,5 +28,10 @@ setup(
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
     },
     package_dir={"": "src"},
+<<<<<<< HEAD
     packages=find_packages(where="src"),
 )
+=======
+    packages=find_packages(where="src")
+)
+>>>>>>> 4dce55b5c0eb4e567f13dd5b9ac65c707a83ed99
