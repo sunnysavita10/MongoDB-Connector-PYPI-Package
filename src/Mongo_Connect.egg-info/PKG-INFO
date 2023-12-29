@@ -12,17 +12,8 @@ Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.7
-Requires-Dist: pymongo
-Requires-Dist: pymongo[srv]
-Requires-Dist: dnspython
-Requires-Dist: pandas
-Requires-Dist: numpy
-Requires-Dist: ensure
-Requires-Dist: pytest==7.1.3
-Requires-Dist: tox==3.25.1
-Requires-Dist: black==22.8.0
-Requires-Dist: flake8==5.0.4
-Requires-Dist: mypy==0.971
+Requires-Dist: ensure==1.0.2
+Requires-Dist: py-youtube==1.1.7
 Provides-Extra: testing
 Requires-Dist: pytest>=7.1.3; extra == "testing"
 Requires-Dist: mypy>=0.971; extra == "testing"

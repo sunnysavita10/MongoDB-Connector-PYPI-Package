@@ -1,14 +1,5 @@
-pymongo
-pymongo[srv]
-dnspython
-pandas
-numpy
-ensure
-pytest==7.1.3
-tox==3.25.1
-black==22.8.0
-flake8==5.0.4
-mypy==0.971
+ensure==1.0.2
+py-youtube==1.1.7
 
 [testing]
 pytest>=7.1.3
